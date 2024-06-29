@@ -41,14 +41,22 @@ body {
     border: none;
 }
 
-.buttons {
+.buttonsLine1 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.bottomButtons {
     display: flex;
     justify-content: space-between;
     padding: 10px;
     margin-bottom: 60px;
 }
 
-.app1 {
+.bottomApp1 {
     width: 50px;
     height: 50px;
     font-size: 1em;
@@ -59,7 +67,7 @@ body {
     cursor: pointer;
 }
 
-.app2 {
+.bottomApp2 {
     width: 50px;
     height: 50px;
     font-size: 1em;
@@ -70,7 +78,7 @@ body {
     cursor: pointer;
 }
 
-.app3 {
+.bottomApp3 {
     width: 50px;
     height: 50px;
     font-size: 1em;
@@ -81,7 +89,7 @@ body {
     cursor: pointer;
 }
 
-.app4 {
+.bottomApp4 {
     width: 50px;
     height: 50px;
     font-size: 1em;
